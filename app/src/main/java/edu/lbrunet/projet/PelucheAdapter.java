@@ -47,6 +47,15 @@ public class PelucheAdapter extends BaseAdapter {
         displayNom.setText(items.get(position).getName());
         displayPrice.setText(items.get(position).getPrice() + "");
 
+        boolean select = items.get(position).isSelect();
+
+        if (select) {
+            displayNom.setTextSize(40);
+        }
+        else {
+            displayNom.setTextSize(20);
+        }
+
         //(4) Changement de la couleur du fond de notre item
         img.setBackgroundResource(items.get(position).getImage());
 
