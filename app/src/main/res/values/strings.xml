@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Projet</string>
+    <string name="imagepeluche">imagePeluche</string>
+    <string name="lilou_et_stitch">Lilou et Stitch !</string>
 </resources>

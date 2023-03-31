@@ -1,0 +1,32 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imagePeluche"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:contentDescription="@string/imagepeluche"
+        android:background="@drawable/ic_launcher_background"/>
+
+
+    <TextView
+        android:id="@+id/pelucheName"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_marginTop="20dp"
+        android:textSize="22sp"
+        android:text="Stitch des neiges"/>
+
+    <TextView
+        android:id="@+id/peluchePrice"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="end"
+        android:layout_marginEnd="20dp"
+        android:textSize="16sp"
+        android:text="14$"/>
+
+</LinearLayout>
