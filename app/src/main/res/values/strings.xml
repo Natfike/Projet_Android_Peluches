@@ -3,4 +3,6 @@
     <string name="imagepeluche">imagePeluche</string>
     <string name="lilou_et_stitch">Lilou et Stitch !</string>
     <string name="valider">Valider</string>
+    <string name="r_capitulatif_de_la_commande">Récapitulatif de la commande</string>
+    <string name="payer">Payer</string>
 </resources>

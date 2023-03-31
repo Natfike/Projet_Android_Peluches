@@ -60,7 +60,7 @@ public class PelucheAdapter extends BaseAdapter {
         img.setBackgroundResource(items.get(position).getImage());
 
         displayNom.setTag(position);
-        layoutItem.setOnClickListener(v -> activity.onClickNom(items.get(position)) );
+        layoutItem.setOnClickListener(v -> activity.onClickNom(items.get(position)));
 
         return layoutItem; //On retourne l'item créé.
     }
