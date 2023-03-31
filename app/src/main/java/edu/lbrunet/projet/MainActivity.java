@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity implements ClickableActivity
             else {
                 Intent intent = new Intent(MainActivity.this, CommandeActivity.class);
                 System.out.println(peluchesSelected);
-                intent.putExtra("list",peluchesSelected);
+                // intent.putExtra("list",peluchesSelected);
                 startActivity(intent);
             }
         });
@@ -58,8 +58,10 @@ public class MainActivity extends AppCompatActivity implements ClickableActivity
         listView.setAdapter(adapter);
 
         if (item.isSelect()) {
+            peluchesSelected.remove(item);
             item.setSelect(false);
         } else {
+            peluchesSelected.add(item);
             item.setSelect(true);
         }
 

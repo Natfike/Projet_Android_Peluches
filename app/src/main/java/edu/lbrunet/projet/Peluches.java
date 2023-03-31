@@ -14,7 +14,7 @@ public class Peluches extends ArrayList<Peluches.Peluche> {
         }
     }
 
-    class Peluche implements Parcelable {
+    public class Peluche implements Parcelable {
         private String name;
         private float price;
         private int image;
