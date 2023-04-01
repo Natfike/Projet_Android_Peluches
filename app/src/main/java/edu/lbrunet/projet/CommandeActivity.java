@@ -19,17 +19,9 @@ public class CommandeActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         ArrayList<Peluches.Peluche> peluchesintent = intent.getParcelableArrayListExtra("list");
-        for (Peluches.Peluche peluche : peluchesintent) {
-            System.out.println(peluche.getName());
-            System.out.println(peluche.getPrice());
-            System.out.println(peluche.getImage());
-        }
-
-        Peluches peluches = new Peluches(getApplicationContext());
-        System.out.println(peluches);
 
         //Creation et initialisation de l'Adapter pour les personnes
-        adapter = new CommandeAdapter(this, peluches);
+        adapter = new CommandeAdapter(this, peluchesintent);
 
         //Recuperation du composant ListView
         ListView display = findViewById(R.id.listStichsPanier);
