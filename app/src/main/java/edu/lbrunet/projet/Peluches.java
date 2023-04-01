@@ -14,7 +14,7 @@ public class Peluches extends ArrayList<Peluches.Peluche> {
         }
     }
 
-    public class Peluche implements Parcelable {
+    static class Peluche implements Parcelable {
         private String name;
         private float price;
         private int image;
@@ -57,7 +57,6 @@ public class Peluches extends ArrayList<Peluches.Peluche> {
             return 0;
         }
 
-
         @Override
         public void writeToParcel(Parcel dest, int flags) {
             dest.writeString(name);
@@ -65,7 +64,7 @@ public class Peluches extends ArrayList<Peluches.Peluche> {
             dest.writeInt(image);
         }
 
-        public final Parcelable.Creator<Peluche> CREATOR = new Parcelable.Creator<Peluche>() {
+        public static final Parcelable.Creator<Peluche> CREATOR = new Parcelable.Creator<Peluche>() {
             @Override
             public Peluche createFromParcel(Parcel source) {
                 return new Peluche(source);
