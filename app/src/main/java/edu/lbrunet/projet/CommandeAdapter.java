@@ -10,11 +10,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class CommandeAdapter extends BaseAdapter {
-    private Peluches items;
+    private ArrayList<Peluches.Peluche> items;
     private LayoutInflater mInflater;
     private Activity activity;
 
-    public CommandeAdapter(Activity activity, Peluches items) {
+    public CommandeAdapter(Activity activity, ArrayList<Peluches.Peluche> items) {
         this.activity = activity;
         this.items = items;
         mInflater = LayoutInflater.from(activity.getApplicationContext());
