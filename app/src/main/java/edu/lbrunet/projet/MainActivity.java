@@ -69,6 +69,18 @@ public class MainActivity extends AppCompatActivity implements ClickableActivity
     }
 
     @Override
+    public void onPause() {
+        super.onPause();
+        stopService(new Intent(MainActivity.this, BackgroundMusicService.class));
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        startService(new Intent(MainActivity.this, BackgroundMusicService.class));
+    }
+    
+    @Override
     public Context getContext() {
         return getApplicationContext();
     }
