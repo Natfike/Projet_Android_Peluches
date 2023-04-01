@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements ClickableActivity
                 toast.show();
             }
             else {
-                Intent intent = new Intent(MainActivity.this, CommandeActivity.class);
+                Intent intent = new Intent(MainActivity.this,CommandeActivity.class);
                 System.out.println(peluchesSelected);
                 intent.putExtra("list",peluchesSelected);
                 startActivity(intent);
