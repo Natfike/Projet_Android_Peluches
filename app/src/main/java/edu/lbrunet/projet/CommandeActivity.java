@@ -18,8 +18,12 @@ public class CommandeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_commande);
 
         Intent intent = getIntent();
-        // ArrayList<Peluches.Peluche> peluches = intent.getParcelableArrayListExtra("list");
-        // System.out.println(peluches);
+        ArrayList<Peluches.Peluche> peluchesintent = intent.getParcelableArrayListExtra("list");
+        for (Peluches.Peluche peluche : peluchesintent) {
+            System.out.println(peluche.getName());
+            System.out.println(peluche.getPrice());
+            System.out.println(peluche.getImage());
+        }
 
         Peluches peluches = new Peluches(getApplicationContext());
         System.out.println(peluches);
