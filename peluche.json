@@ -5,55 +5,63 @@
         "nom" : "Stitch-arc-en-ciel",
          "imgurl" : "https://github.com/Natfike/Projet_Android_Peluches/blob/main/img/Stitch2.png",
         "prix" : 20,
-        "type" : "stitch"
+        "type" : "stitch",
+        "description" : "Un cadeau parfait pour montrer l'amour que vous avez envers une personne :3"
     },
     {
         "id" : 2,
         "nom" : "Stitch-normal",
         "imgurl" : "https://github.com/Natfike/Projet_Android_Peluches/blob/main/img/Stitch1.png",
         "prix" : 21,
-        "type" : "stitch"
+        "type" : "stitch",
+        "description" : "Une peluche de Stitch, tout ce qu'il y a de plus normal."
     },
     {
         "id" : 3,
         "nom" : "Stitch-gros-bidou",
         "imgurl" : "https://github.com/Natfike/Projet_Android_Peluches/blob/main/img/Stitch3.png",
-        "prix" : 25,
-        "type" : "stitch"
+        "prix" : 90,
+        "type" : "stitch",
+        "description" : "Le plus grand des Stitch disponible, d'une hauteur de 1m10 sur un longueur et une largeur de 60 cm ! "
     },
     {
         "id" : 4,
         "nom" : "Stitch-noel",
         "imgurl" : "https://github.com/Natfike/Projet_Android_Peluches/blob/main/img/Stitch4.png",
         "prix" : 19,
-        "type" : "stitch"
+        "type" : "stitch",
+        "description" : "Un cadeau de noël tout trouvé pour les enfants comme les grands !"
     },
     {
         "id" : 5,
         "nom" : "Stitchela",
         "imgurl" : "https://github.com/Natfike/Projet_Android_Peluches/blob/main/img/Stitchela.png",
         "prix" : 2,
-        "type" : "stitch"
+        "type" : "stitch",
+        "description" : "Une peluche à l'éffigie de Angel, la copine de Stitch. Un cadeau parfait pour votre dulcinée !"
     },
     {
         "id" : 6,
         "nom" : "Goomba",
         "imgurl" : "https://github.com/Natfike/Projet_Android_Peluches/blob/main/img/Goomba.png",
         "prix" : 35,
-        "type" : "goomba"
+        "type" : "goomba",
+        "description" : "Malgré son air de méchant, le Goomba se montrera bienveillant et partant pour tout câlin !"
     },
     {
         "id" : 7,
         "nom" : "Chat-Chinois",
         "imgurl" : "https://github.com/Natfike/Projet_Android_Peluches/blob/main/img/gachat.png",
         "prix" : 40,
-        "type" : "chat"
+        "type" : "chat",
+        "description" : "Malgré son apparence, ce petit chat n'est pas à manger, mais à câliner !"
     },
     {
         "id" : 8,
         "nom" : "Cactus-Dansant",
         "imgurl" : "https://github.com/Natfike/Projet_Android_Peluches/blob/main/img/cactus.png",
         "prix" : 20,
-        "type" : "cactus"
+        "type" : "cactus",
+        "description" : "Le cactus dansant réagira à la musique l'entourant pour ce lancer dans une dance effrénée"
     }
 ]
