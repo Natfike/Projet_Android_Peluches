@@ -3,56 +3,56 @@
         
         "id" : 1,
         "nom" : "Stitch-arc-en-ciel",
-         "imgurl" : "https://github.com/Natfike/Projet_Android_Peluches/blob/main/img/Stitch2.jpg",
+         "imgurl" : "https://github.com/Natfike/Projet_Android_Peluches/blob/main/img/Stitch2.png",
         "prix" : 20,
         "type" : "stitch"
     },
     {
         "id" : 2,
         "nom" : "Stitch-normal",
-        "imgurl" : "https://github.com/Natfike/Projet_Android_Peluches/blob/main/img/Stitch1.jpg",
+        "imgurl" : "https://github.com/Natfike/Projet_Android_Peluches/blob/main/img/Stitch1.png",
         "prix" : 21,
         "type" : "stitch"
     },
     {
         "id" : 3,
         "nom" : "Stitch-gros-bidou",
-        "imgurl" : "https://github.com/Natfike/Projet_Android_Peluches/blob/main/img/Stitch3.jpg",
+        "imgurl" : "https://github.com/Natfike/Projet_Android_Peluches/blob/main/img/Stitch3.png",
         "prix" : 25,
         "type" : "stitch"
     },
     {
         "id" : 4,
         "nom" : "Stitch-noel",
-        "imgurl" : "https://github.com/Natfike/Projet_Android_Peluches/blob/main/img/Stitch4.jpeg",
+        "imgurl" : "https://github.com/Natfike/Projet_Android_Peluches/blob/main/img/Stitch4.png",
         "prix" : 19,
         "type" : "stitch"
     },
     {
         "id" : 5,
         "nom" : "Stitchela",
-        "imgurl" : "https://github.com/Natfike/Projet_Android_Peluches/blob/main/img/Stitchela.jpg",
+        "imgurl" : "https://github.com/Natfike/Projet_Android_Peluches/blob/main/img/Stitchela.png",
         "prix" : 2,
         "type" : "stitch"
     },
     {
         "id" : 6,
         "nom" : "Goomba",
-        "imgurl" : "https://github.com/Natfike/Projet_Android_Peluches/blob/main/img/Goomba.jpg",
+        "imgurl" : "https://github.com/Natfike/Projet_Android_Peluches/blob/main/img/Goomba.png",
         "prix" : 35,
         "type" : "goomba"
     },
     {
         "id" : 7,
         "nom" : "Chat-Chinois",
-        "imgurl" : "https://github.com/Natfike/Projet_Android_Peluches/blob/main/img/gachat.jpg",
+        "imgurl" : "https://github.com/Natfike/Projet_Android_Peluches/blob/main/img/gachat.png",
         "prix" : 40,
         "type" : "chat"
     },
     {
         "id" : 8,
         "nom" : "Cactus-Dansant",
-        "imgurl" : "https://github.com/Natfike/Projet_Android_Peluches/blob/main/img/cactus.jpg",
+        "imgurl" : "https://github.com/Natfike/Projet_Android_Peluches/blob/main/img/cactus.png",
         "prix" : 20,
         "type" : "cactus"
     }
